@@ -1,0 +1,15 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "authentucation and Authority techniques",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Nhung",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^8.3.0"
+  }
+}

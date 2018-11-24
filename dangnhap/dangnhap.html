@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Đăng nhập_BTL</title>
+    <link rel="stylesheet" href="css/pc.css">
+
+    <!-- <script type="text/javascript">
+        function getInfo()
+        {
+            var email = document.getElementById("email").value;
+            var psw = document.getElementById("psw").value;
+
+         
+
+            if(email == "")
+            {
+                document.getElementById("errorname").innerHTML = "Bạn không thể bỏ trống chỗ này";
+            }
+            else
+            {
+                document.getElementById("errorname").innerHTML = "";
+            }
+
+            
+            if(psw == "")
+            {
+                document.getElementById("errorpsw").innerHTML = "Bạn không thể bỏ trống chỗ này";
+            }
+            else
+            {
+                document.getElementById("errorpsw").innerHTML = "";
+            }
+
+            if (email && psw)
+            {
+                alert('Đăng nhập thành công!')
+            } else  alert('Đăng nhập không thành công')
+                   
+        }
+    </script> -->
+</head>
+<body>
+    <div class="dangnhap">
+        <div class="top">
+            <p><b>Gọi số: 0973102251</b></p>
+        </div>
+
+        <div class="logo">
+            <img src="images/logo-BTL.png">
+        </div>
+
+       <div class="menu">
+            <ul>
+                <li><a href="../trangchu/trangchu.html">Trang chủ</a></li>
+                <li><a href="../dichvu/dichvu.html">Dịch vụ</a></li>
+                <li><a href="../dinhgia/dinhgia.html">Định giá</a></li>
+                <li><a href="#">Thời gian</a></li>
+                <li class='active'><a href="#">Đăng nhập</a></li>
+            </ul>
+        </div>
+            
+        <div class="container">
+            <img src="images/dn.png"><br>
+            <form id="pc" action="/" method="POST">
+                <label><b>Username</b></label><br>
+                 <!-- <input type="text" id="email" placeholder="Vui lòng nhập Email của bạn" name="email"><br> -->
+                <span id="errorname" class="error"></span><br> 
+                <input type="text" placeholder="User name" id="username" name="username"><br>
+                
+                <label><b>Password</b></label><br>
+                 <!-- <input type="password" id="psw" placeholder="Vui lòng nhập mật khẩu của bạn" name="pass"><br> -->
+                <span id="errorpsw" class="error"></span><br> 
+                <input type="password" placeholder="Password" id="password" name="password"><br>
+
+                <!-- <button type="submit" onclick="getInfo(); return false;">Đăng nhập</b></button>
+                
+                <p><a href="#">Quên mật khẩu?</a></p> -->
+                <input type="submit" value="Log in" name="Login">
+            </form>
+        </div>
+
+        <footer>
+                <div class="section">
+                    <p>Massage by Nhung</p>
+                    <p><b>0978 888 888</b><br>
+                    Ngõ 112, Đường Cửu Việt 2<br>
+                    Trâu Quỳ, Gia Lâm<br>
+                    Hà Nội</p>
+                </div>
+    
+                <div class="section">
+                    <p>Liên hệ với chúng tôi</p>
+                    <ul>
+                        <li><a href="https://www.facebook.com/beo.nhung.98" title="facebook"><img src="images/fb.png"/></a></li>
+                        <li><a href="https://www.google.com.vn/" title="google"><img src="images/google.png"/></a></li>
+                        <li><a href="https://twitter.com/?lang=vi" title="twitter"><img src="images/twi.png"/></a></li>
+                        <li><a href="https://www.youtube.com/" title="youtube"><img src="images/youtube.png"/></a></li>
+                    </ul>
+                </div>
+                <div class="section">
+                        <img src="images/hoa.png"/> 
+                </div>
+            </footer>
+        </div>
+            <p style="text-align:center; padding: 0px;color: #878e63;">&#169;Copyright - Massage by Nhung, 2018</p>
+        </div>
+</body>
+</html>

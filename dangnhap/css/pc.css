@@ -1,0 +1,169 @@
+body {
+    background: #f1f0d1;
+    overflow: auto;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.dangnhap {
+    border: 1px solid #878e63;
+    background: #fefbe8;
+    max-width: 1020px;
+    height: 1270px;
+    border-radius: 2px;
+    margin: auto;
+    box-shadow: 0 0 10px 0px rgba(12, 3, 25, 0.8);
+}
+
+.top {
+    width: 100%;
+    height: auto;
+    background: #878e63;
+    overflow: hidden;
+}
+
+.top p {
+    color: #fefbe8;
+    text-align: right;
+    font-size: 13px;
+    padding:0.1% 5% 0 0;
+}
+
+.logo {
+    text-align: center;
+    min-height: 125px;
+    padding: 5px;
+    width: 96%;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 50px;
+}
+.menu ul li{
+    float:left;
+    border: 1px solid #878E63;
+    width: 15%;
+}
+.menu ul li a{
+    background: #f1f0d1;
+    display: block;
+    padding: 5% 12%;
+    font-weight: bold;
+    font-size: 18px;
+    color:#878e63;
+    text-decoration: none;
+    text-align: center;
+}
+.menu ul li a:hover, .menu ul li.active a{
+    background-color: #878e63;
+    color:#f1f0d1;
+}
+
+.container {
+    width: 915px;
+    height: 730px;
+    border: 1px solid #878E63;
+    margin: 0 auto;
+    margin-top:80px;
+    margin-bottom: 40px;
+}
+
+.container img {
+    height: 30%;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+#pc {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+b {
+    color: #878e63;
+}
+
+
+input[type=text], input[type=password] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #878e63;
+    color: #fefbe8;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container p {
+    margin-left: 48%;
+
+}
+
+.container p a {
+    text-decoration: none;
+    color: #878e63;
+
+}
+
+.section{
+    width:29%;
+    float: left;
+    margin: 2% 2%;
+    text-align: center;
+}
+
+footer{
+    background:#878e63;
+    width: 100%;
+    overflow: hidden;
+}
+
+footer p, footer h3{
+    color: #f1f0d1;
+}
+
+footer p a{
+    color: #f1f0d1;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+}
+
+ul li img{
+    height: 50px;
+}
+
+.error {
+    color: red;
+    display: block;
+    line-height: 16px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+
+
